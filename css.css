@@ -49,15 +49,15 @@ body, html {
 
 /*</style>*/
 .c{
-  margin-left: 1%;
-  margin-top: 4%;
-   height:150px; 
-   width:300px;
+  margin-left: 5%;
+  margin-top: 8%;
+   height:200px; 
+   width:350px;
    
    
 }
 .head{
-margin-top: 10%;
+
   text-align: center;
   font-size: 70px;
     background: -webkit-linear-gradient(#ffff00, #ff6600);
@@ -66,10 +66,18 @@ margin-top: 10%;
 
 }
 .i{
-  font-size: 20px;
-  margin-left: 9%;
+  font-size: 25px;
+  margin-left: 14%;
   margin-top: 0;
+  color: black;
+  font-style: bold;
 }
+
+
+
+
+
+
 @media only screen and (max-device-width: 767px){
 
 
