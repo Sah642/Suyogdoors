@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
+<head>
 <title>SuyogDoors</title>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -9,8 +11,9 @@
 <link rel="stylesheet" type="text/css" href="css.css">
  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
+
+</head>
 <body>
 <!-- <div class="spinner-wrapper">
 <div class="spinner">
@@ -28,13 +31,13 @@
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+  <div class="w3-bar w3-light-grey" id="myNavbar">
+    <a class="w3-bar-item w3-button  w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="material-icons">menu</i>
       <!-- <i class="fa fa-bars"></i> -->
     </a>
-    <a href="#home" class="w3-bar-item w3-opacity w3-hover-opacity-off w3-button">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#home" class="w3-bar-item w3-opacity w3-hover-opacity-off w3-button ">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button  w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
 <!--     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a> -->
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="material-icons">&#xe7fb;</i> TEAM</a>
@@ -50,9 +53,9 @@
   
 
   <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+  <div id="navDemo" class="w3-bar-block  w3-white w3-hide w3-hide-large w3-hide-medium">
 
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#about" class="w3-bar-item w3-hover-lightgrey w3-button" onclick="toggleFunction()">ABOUT</a>
    <!--  <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a> -->
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
       <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">OUR WORK</a>
@@ -74,16 +77,18 @@ function myFunction(id) {
 
 
 <!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+<!-- <div class="w3-light-grey"> -->
+<div class="w3-hide-large w3-hide-medium w3-light-grey"><p class="head w3-center w3-hide-large " style="font-family: 'DEBROSEE'">SUYOG DOORS</p></div>
+<div class="bgimg-1 w3-light-grey " id="home">
   <div class="w3-display-container" style="white-space:nowrap;">
     <!-- <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY <span class="w3-hide-small">WEBSITE</span> LOGO</span> -->
     <span ><a><img class="c  "  src="logo3.png"></a> </span>
 <p class=" i " >INDUSTRIES</p>
- 
+  <p class="head w3-padding w3-hide-small w3-center" style="font-family: 'DEBROSEE'">SUYOG DOORS</p>
   </div>
 </div>
-
-   <p class="head w3-center w3-padding" style="font-family: 'DEBROSEE'">SUYOG DOORS</p>
+<!-- </div> -->
+   
 
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
@@ -134,45 +139,45 @@ Also, we are eable to deliver these products across Maharashtra due to our excel
 </div>
 
 <!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64" id="portfolio">
+<div class="w3-content w3-display-container w3-padding-16 w3-light-grey" id="portfolio">
   <h3 class="w3-center">OUR PRODUCTS</h3>
   <p class="w3-center"><em>Here are some of our products<br></p><br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
-      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="The mist over the mountains"><p>door type</p>
+      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="Designer Mica Laminate"><p class="dtp">Designer Mica Laminate</p>
     </div>
 
     <div class="w3-col m3">
-      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="Coffee beans"><p>door type</p>
+      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="Door Skin Laminate"><p class="dtp">Door Skin Laminate</p>
     </div>
 
     <div class="w3-col m3">
-      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="Bear closeup"><p>door type</p>
+      <img src="11.jpg"   class="w3-hover-opacity  dotype" alt="Surface Matt"><p class="dtp">Surface Matt</p>
     </div>
 
     <div class="w3-col m3">
-      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="Quiet ocean"><p>door type</p>
+      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="Deco Paint"><p class="dtp">Deco Paint</p>
     </div>
   </div>
   
-<div id="Demo1" class="w3-hide" >
+<!-- <div id="Demo1" class="w3-hide" > -->
   <div  class=" w3-row-padding w3-center w3-section">
     <div class="w3-col m3">
-      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="The mist"><p>door type</p>
+      <img src="12.jpg"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="FRP Doors"><p class="dtp">FRP Doors</p>
     </div>
 
     <div class="w3-col m3">
-      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="My beloved typewriter"><p>door type</p>
+      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="Fiber DOM/Designer Sheet"><p class="dtp">Fiber DOM/Designer Sheet</p>
     </div>
 
     <div class="w3-col m3">
-      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="Empty ghost train"><p>door type</p>
+      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="Interior Jali"><p class="dtp">Interior Jali CNC Work(PVC,MDF,ACP)</p>
     </div>
 
     <div class="w3-col m3">
-      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="Sailing"><p>door type</p>
+      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="CNC Work(PVC,MDF,ACP)"><p class="dtp">CNC Work(PVC,MDF,ACP)</p>
     </div>
    
     <!-- <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-black w3-left-align">Accordion</button> -->
@@ -180,26 +185,26 @@ Also, we are eable to deliver these products across Maharashtra due to our excel
 </div>
 
 
-<div  class="w3-block w3-animate-zoom w3-row-padding w3-center w3-section w3-hide-small">
+<!-- <div  class="w3-block w3-animate-zoom w3-row-padding w3-center w3-section w3-hide-small">
     <div class="w3-col m3">
-      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="The mist"><p>door type</p>
+      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="The mist"><p class="dtp">door type</p>
     </div>
 
     <div class="w3-col m3">
-      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="My beloved typewriter"><p>door type</p>
+      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="My beloved typewriter"><p class="dtp">door type</p>
     </div>
 
     <div class="w3-col m3">
-      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="Empty ghost train"><p>door type</p>
+      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="Empty ghost train"><p class="dtp">door type</p>
     </div>
 
     <div class="w3-col m3">
-      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="Sailing"><p>door type</p>
+      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="Sailing"><p class="dtp">door type</p>
     </div>
     
-  </div>
-</div>
- <button onclick="myfunction('Demo1')" class="b w3-black w3-left-align w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+  </div> -->
+<!-- </div> -->
+<!--  <button onclick="myfunction('Demo1')" class="b w3-black w3-left-align w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button> -->
 
 <!-- 
   <div id="Demo1" class="w3-hide w3-animate-zoom">
@@ -313,64 +318,17 @@ Also, we are eable to deliver these products across Maharashtra due to our excel
   <p>All Rights Reserved.@ <a href="" title="W3.CSS" target="_blank" class="w3-hover-text-green">suyog doors</a></p>
 </footer>
  
-<script>
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
-
-// Change style of navbar on scroll
-window.onscroll = function() {myFunction()};
-function myFunction() {
-    var navbar = document.getElementById("myNavbar");
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-    } else {
-        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-    }
-}
-
-// Used to toggle the menu on small screens when clicking on the menu button
-function toggleFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-</script>
-<script>
-function myfunction(Demo1) {
-  var x = document.getElementById("Demo1");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-
-
-</script>
-
-
 <!-- <script>
-$(document).ready(function() {
-//Preloader
-$(window).on("load", function() {
-preloaderFadeOutTime = 50;
-function hidePreloader() {
-var preloader = $('.spinner-wrapper');
-preloader.fadeOut(preloaderFadeOutTime);
-}
-hidePreloader();
-});
-});
+
 </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+<script>
+
+
+
+</script> -->
+
+<script type="text/javascript" src="index.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 </body>
 </html>
