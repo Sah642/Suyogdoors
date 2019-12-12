@@ -153,7 +153,7 @@ body, html {
 
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3 ,.bgimg-4{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -180,13 +180,17 @@ body, html {
   background-image: url("do5.jpg");
   min-height: 400px;
 }
+.bgimg-4 {
+  background-image: url("do3.jpg");
+  min-height: 400px;
+}
 
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1600px) {
-   .bgimg-1,.bgimg-2, .bgimg-3 {
+   .bgimg-1,.bgimg-2, .bgimg-3,.bgimg-4 {
     background-attachment: scroll;
     min-height: 400px;
   }
@@ -196,6 +200,35 @@ body, html {
 
 
 /*</style>*/
+.home_text{
+position: absolute;
+  margin-left: 30%;
+ 
+ 
+  margin-top: 21%;
+    
+}
+.home_t{
+  font-size: 40px;
+   font-weight: 600;
+    color: #FFC107;
+    
+    padding-bottom: 5px;
+}
+.home_t2{
+  font-size: 40px;
+   font-weight: 600;
+    color: #FFC107;
+    
+    padding-bottom: 5px;
+}
+.home_t1{
+  font-size: 40px;
+   font-weight: 600;
+    color: #FFC107;
+    
+    padding-bottom: 5px;
+}
 .b{
   margin-left: 44%;
  
@@ -215,11 +248,11 @@ padding:0;
 height: 58px;
 margin: 0;
 
-margin-left: 30%;
+margin-left: 10%;
   font-size: 50px;
    font-weight: 600;
     background: -webkit-linear-gradient(#ffff00, #ff6600);
-
+  /*  color: #454545;*/
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -228,6 +261,18 @@ z-index: 9999;
 @font-face {
   font-family: "DEBROSEE";
   src: url("DEBROSEE.TTF") format("truetype");
+}
+@font-face {
+  font-family: "Hornbill";
+  src: url("Hornbill.TTF") format("truetype");
+}
+@font-face {
+  font-family: "Afternoon";
+  src: url("Afternoon.TTF") format("truetype");
+}
+@font-face {
+  font-family: "Quite Good ";
+  src: url("Quite Good .TTF") format("truetype");
 }
 /*.sticky {
   position: -webkit-sticky;
@@ -287,6 +332,39 @@ z-index: 9999;
  
     
   }
+  .home_text{
+position: absolute;
+  margin-left: 10%;
+ 
+ 
+  margin-top: 55%;
+    
+}
+.home_t{
+  font-size: 20px;
+   font-weight: 600;
+    color: #FFC107;
+    
+    padding-bottom: 5px;
+}
+.home_t2{
+  font-size: 21px;
+   font-weight: 600;
+    color: #FFC107;
+     margin-left: 12%;
+    padding-bottom: 15px;
+
+}
+.home_t1{
+    font-size: 20px;
+   font-weight: 600;
+    color: #FFC107;
+    
+    padding-bottom: 5px;
+  padding-top: 10px;
+  margin-top: 30px;
+     margin-left: 10%;
+}
   .b{
     margin-left: 31%;
     font-size: 8px;
@@ -297,8 +375,8 @@ z-index: 9999;
     width: 130px;
   }
   .head{
-    font-size: 35px;
- margin-left: 20%;
+    font-size: 32px;
+ margin-left: 18%;
  max-height: 50px;
 
    
