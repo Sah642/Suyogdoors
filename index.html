@@ -13,6 +13,7 @@
 
  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Alex+Brush|Alfa+Slab+One|Baloo+Bhai|Cookie|Girassol|Great+Vibes|Libre+Baskerville|Lilita+One|Lobster|Mr+Dafoe|Orbitron|Teko&display=swap" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="css.css"/>
   <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
@@ -25,7 +26,10 @@
  
 </head>
 <body>
-<header>
+
+
+
+
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar" id="myNavbar">
@@ -41,7 +45,7 @@
      
       <a href="#portfolio" class="w3-bar-item w3-button w3-large w3-hide-small w3-right"><i class="fa fa-door-open"></i> PRODUCTS</a>
     <a href="#home" class="w3-bar-item w3-opacity  w3-large w3-hover-opacity-off w3-button w3-right w3-hide-small">HOME</a>
-      <a><h2 class="head" style="font-family: 'DEBROSEE'">SUYOG DOORS</h2></a>
+      <a><p class="head " style="font-family: 'DEBROSEE'">SUYOG DOORS</p></a>
 
 
   
@@ -68,7 +72,7 @@
     <!-- <a href="#" class="w3-bar-item w3-button">SEARCH</a> -->
   </div>
 </div>
-</header>
+
 <script>
 function myFunction(id) {
   var x = document.getElementById("navDemo");
@@ -86,11 +90,11 @@ function myFunction(id) {
 <!-- <div class="w3-hide-large w3-hide-medium w3-light-grey"></div> -->
 <div class="bgimg-1 w3-light-grey " id="home">
   <div class="w3-display-container" style="white-space:nowrap;">
-   <div class="home_text w3-hide-small w3-hide-medium" >
-      <h2 class="home_t" ><span style="font-family: 'Quite Good'">Welcome to</span></h2>
-      <h2 class="home_t2"> <span style="border-bottom: 1px dashed; font-family: 'Hornbill'">SUYOG INDUSTRIES </span></h2>
-    <h1 class="home_t1" style="font-family: 'Afternoon'">Your Home Deserves The Best</h1>
-    </div>
+   <!-- <div class="w3-display-middle home_text w3-content w3-container w3-padding-64 w3-col m6" >
+      <p class="home_t" ><span style="font-family: 'Great Vibes', cursive;">Welcome to</span></p>
+      <p class="home_t"> <span style="border-bottom: 1px dashed;font-family: 'Girassol', cursive;">SUYOG INDUSTRIES </span></p>
+    <p class="home_t" style="font-family: 'Mr Dafoe', cursive;">Your Home Deserves The Best</p>
+    </div> -->
     <span ><a><img class="c  "  src="logo3.png"></a> </span>
 <p class=" i " >INDUSTRIES</p>
  <!--  <div class="head w3-padding w3-hide-small w3-light-grey w3-display-topleft" style="font-family: 'DEBROSEE'">SUYOG DOORS</div>
@@ -144,26 +148,26 @@ Also, we are eable to deliver these products across Maharashtra due to our excel
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
-      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="Designer Mica Laminate"><p class="dtp">Designer Mica Laminate</p>
+      <img src="door/skin2.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="Designer Mica Laminate"><p class="dtp">Designer Mica Laminate</p>
     </div>
 
     <div class="w3-col m3">
-      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="Door Skin Laminate"><p class="dtp">Door Skin Laminate</p>
+      <img src="door/skin1.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="Door Skin Laminate"><p class="dtp">Door Skin Laminate</p>
     </div>
 
     <div class="w3-col m3">
-      <img src="11.jpg"   class="w3-hover-opacity  dotype" alt="Surface Matt"><p class="dtp">Surface Matt</p>
+      <img src="door/skin3.png" onclick="onClick(this)"   class="w3-hover-opacity  dotype" alt="Surface Matt"><p class="dtp">Surface Matt</p>
     </div>
 
     <div class="w3-col m3">
-      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="Deco Paint"><p class="dtp">Deco Paint</p>
+      <img src="door/deco1.png" onclick="onClick(this)" class="w3-hover-opacity dotype" alt="Deco Paint"><p class="dtp">Deco Paint</p>
     </div>
   </div>
   
 <!-- <div id="Demo1" class="w3-hide" > -->
   <div  class=" w3-row-padding w3-center w3-section">
     <div class="w3-col m3">
-      <img src="12.jpg"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="FRP Doors"><p class="dtp">FRP Doors</p>
+      <img src="door/12.jpg"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="FRP Doors"><p class="dtp">FRP Doors</p>
     </div>
 
     <div class="w3-col m3">
@@ -183,33 +187,6 @@ Also, we are eable to deliver these products across Maharashtra due to our excel
 </div>
 
 
-<!-- <div  class="w3-block w3-animate-zoom w3-row-padding w3-center w3-section w3-hide-small">
-    <div class="w3-col m3">
-      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="The mist"><p class="dtp">door type</p>
-    </div>
-
-    <div class="w3-col m3">
-      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="My beloved typewriter"><p class="dtp">door type</p>
-    </div>
-
-    <div class="w3-col m3">
-      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="Empty ghost train"><p class="dtp">door type</p>
-    </div>
-
-    <div class="w3-col m3">
-      <img src="door.png"  onclick="onClick(this)" class="w3-hover-opacity dotype" alt="Sailing"><p class="dtp">door type</p>
-    </div>
-    
-  </div> -->
-<!-- </div> -->
-<!--  <button onclick="myfunction('Demo1')" class="b w3-black w3-left-align w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button> -->
-
-<!-- 
-  <div id="Demo1" class="w3-hide w3-animate-zoom">
-  <a href="#" class="w3-button w3-block w3-left-align">Link 1</a>
-  <a href="#" class="w3-button w3-block w3-left-align">Link 2</a>
-  <a href="#" class="w3-button w3-block w3-left-align">Link 3</a>
-  </div> -->
 
   
 </div>
@@ -254,16 +231,58 @@ Also, we are eable to deliver these products across Maharashtra due to our excel
   <p class="w3-center"><em>Here is some WORK that we have Done.<br></p><br>
  <div class="center  slider " >
     <div>
-      <img src="door.png">
+      <img onclick="onClick(this)" src="door/skin.png">
     </div>
     <div>
-      <img src="door.png">
+      <img src="door/deco.jpg">
     </div>
     <div>
-      <img src="door.png">
+      <img src="door/dd1.png">
     </div>
     <div>
-      <img src="door.png">
+      <img src="door/dd2.png">
+    </div> 
+    <div>
+      <img src="door/dd3.jpg">
+    </div>
+     <div>
+      <img src="door/dd4.png">
+    </div>
+     <div>
+      <img src="door/dd5.png">
+    </div>
+     <div>
+      <img src="door/dd6.png">
+    </div>
+     <div>
+      <img src="door/dd7.png">
+    </div>
+     <div>
+      <img src="door/dd8.jpg">
+    </div>
+     <div>
+      <img src="door/dd9.jpg">
+    </div>
+     <div>
+      <img src="door/dd10.jpg">
+    </div>
+     <div>
+      <img src="door/dd11.png">
+    </div>
+     <div>
+      <img src="door/dd12.png">
+    </div>
+     <div>
+      <img src="door/dd13.png">
+    </div>
+     <div>
+      <img src="door/dd14.png">
+    </div>
+     <div>
+      <img src="door/dd15.png">
+    </div>
+     <div>
+      <img src="door/dd16.png">
     </div>
     <div>
       <img src="door.png">
